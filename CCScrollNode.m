@@ -141,4 +141,14 @@
         [self.delegate ccScrollNode:self didScrollWithOffset:offset];
 }
 
+-(void)setScrollEnabled:(BOOL)scrollEnabled
+{
+    scrollView_.scrollEnabled = scrollEnabled;
+}
+
+-(BOOL)scrollEnabled
+{
+    return scrollView_.scrollEnabled;
+}
+
 @end
