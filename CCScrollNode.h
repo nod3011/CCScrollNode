@@ -36,4 +36,6 @@
 - (void) setContentSize:(CGSize)contentSize;
 - (void) setPagingEnabled:(BOOL)paging;
 
+@property(nonatomic) BOOL scrollEnabled;
+
 @end
